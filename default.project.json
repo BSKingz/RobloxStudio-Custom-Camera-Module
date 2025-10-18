@@ -1,0 +1,44 @@
+{
+  "name": "NexusScripts-ScriptableCameraSystem",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/character"
+      }
+    },
+
+    "StarterPack": {
+      "Tools": {
+        "$path": "src/tools"
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Scripts": {
+        "$path": "src/workspace"
+      }
+    }
+  }
+}
